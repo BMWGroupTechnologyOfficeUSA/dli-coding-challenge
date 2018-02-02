@@ -9,7 +9,9 @@ Bitcoin mining works in the way that strong mathematical puzzles have to be solv
 Implement a distributed Bitcoin mining application with following criteria:
 * Create a central web service that delegates and aggregates the work to/from the clients. Use NodeJS to implement this logic and deploy it on a server (e.g., Amazon AWS).
 * Implement the client hashing logic as an Android app that is responsible for doing the hard calculations in a distributed manner. The client app gets the puzzles to solve from the server and publishes its results to it.
-* Follow the REST principles for the communication between client and server.
+* Follow the REST principles for the communication between client and server. The endpoints could look like this, for instance:
+  * ```/work```   - returns a JSON-encoded job that the client shall use to begin mining
+  * ```/submit``` - provides the client the possibility to submit a successful nonce to the server
 * Use an appropriate authentication mechanism.
 * Realize the client computations in a performant way.
 * You can create pseudo-hashing-puzzles and do not have to connect to the real bitcoin blockchain.

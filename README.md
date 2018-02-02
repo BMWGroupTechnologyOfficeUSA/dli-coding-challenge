@@ -5,10 +5,7 @@ The DLI code challenge is an opportunity to demonstrate proficiency in the probl
 We don't believe there is a one-size-fits-all technology solution. Solid development is about using the right tools for the job, and constantly learning about them. Use your README to discuss the experience you have with the technical stack you selected and we'll make note of that when reviewing your solution.
 
 ## Expectations
-Read and follow the selected coding challenge carefully. Create a README.md containing your thoughts and decisions in a consise and clear way. You can either share your code via a Github link or ZIP file.
-
-## Time Allotment
-We respect your time and expect a result within one week. 
+Read the selected coding challenge carefully. Create a README.md containing your thoughts and decisions in a consise and clear way. You can either share your code via a Github link or ZIP file. We respect your time and expect a result within one week.
 
 ## Your Challenge README
 Include the following items in your README:
