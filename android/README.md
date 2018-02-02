@@ -11,9 +11,9 @@ Implement a distributed Bitcoin mining application with following criteria:
 * Implement the client hashing logic as an Android app that is responsible for doing the hard calculations in a distributed manner. The client app gets the puzzles to solve from the server and publishes its results to it.
 * Follow the REST principles for the communication between client and server. The endpoints could look like this, for instance:
   * ```/work```   - returns a JSON-encoded job that the client shall use to begin mining
-  * ```/submit``` - provides the client the possibility to submit a successful nonce to the server
+  * ```/submit``` - provides the client with the possibility to submit a successful nonce to the server
 * Use an appropriate authentication mechanism.
-* Realize the client computations in a performant way.
+* Realize the client computations in the most performant way you know.
 * You can create pseudo-hashing-puzzles and do not have to connect to the real bitcoin blockchain.
 
 ## Extensions
