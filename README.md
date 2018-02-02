@@ -1,55 +1,34 @@
-# Coding Challenge
+# Digital Life Innovations Team - Code Challenges
 
-## Problem Description
+The DLI code challenge is an opportunity to demonstrate proficiency in the problem solving skills we expect you to use at BMW. It is part to of our recruiting process to evaluate your coding abilities.
 
-Modern vehicles are no longer on their own when driving on the road but are part of a large connected fleet and we need scalable systems to transmit observed data from cars, process it online, and then deliver relevant data to appropriate cars across the globe.
+We don't believe there is a one-size-fits-all technology solution. Solid development is about using the right tools for the job, and constantly learning about them. Use your README to discuss the experience you have with the technical stack you selected and we'll make note of that when reviewing your solution.
 
-In this challenge, assume that each car is equipped with a camera that detects road signs and sends them to a back-end server over the internet. The back-end server stores the observations, learns existence and positions of road signs from these observations and upon request delivers a list of these learned road signs to other vehicles as they approach the area. 
+## Expectations
+Read and follow the selected coding challenge carefully. Create a README.md containing your thoughts and decisions in a consise and clear way. You can either share your code via a Github link or ZIP file.
 
-The vehicle will use this information to display the presence of upcoming road signs to the driver.
+## Time Allotment
+We respect your time and expect a result within one week. 
 
+## Your Challenge README
+Include the following items in your README:
 
-## Challenge Overview
+* Description of the problem and solution.
+* Reasoning behind your technical choices. Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
+* Link to to the hosted application where applicable.
+* Commit History
+* Use whatever development workflow works best for you. If your solution is small enough and a single commit is justified, that's fine; we just ask that you keep your commit history as coherent as possible.
 
-Implement a web service that can receive road sign observations. A road sign observation is defined by the following attributes:
+## Evaluation Points
+Your application will be reviewed and evaluated for the following characteristics:
 
-- **latitude**: double  
-- **longitude**: double  
-- **type**: enum (e.g. *SPEED_LIMIT_30*,
-*PASSING_RESTRICTION*)
+* **Clarity**: Does the README clearly explain the problem and solution?
+* **Correctness**: Does the application do what was asked? If there is anything missing, does the README explain why it is missing?
+* **Code Quality**: Is the code simple, easy to understand, and maintainable?
+* **Testing**: If required - how thorough are the automated tests? Will they be difficult to change if the requirements of the application were to change?
+* **UX**: Is the interface understandable and pleasing to use?
+* **Technical Choices**: Do choices of libraries, databases, architecture seem appropriate for the challenge?
 
-Please design and implement a REST web service that is capable of receiving one observation at a time. 
-
-The received observation shall be stored internally on the back-end server. Persistent storage of these observations is not required. 
-
-The web service shall be used to provide vehicles with road signs for a given location. Since your fleet might report the same sign multiple time, it will send you multiple observations of the same sign. When requesting nearby signs, the vehicle shall be able to provide a latitude and longitude position together with a radius in which road signs shall be searched and returned. In this search radius, at most one instance of a **type** shall be returned (e.g. 5 *SPEED_LIMIT_30* signs were reported; only 1 shall be returned). The web-service shall be able to serve all recognized road sign types to a requesting vehicle.
-
-
-## Design Guidelines
-
-Please follow these design guidelines:
-
-- Your solution has to include both front-end and back-end.
-    - Your back-end solution has to use the paradigms of REST and the Node.js framework.
-    - Your front-end needs to be a web page written in JavaScript and HTML that can submit raw data to the server as well as display appropriate data from the server.  
-- Deploy the web service (e.g. on Amazon EC2, Heroku, Google AppEngine).
-
-## Extensions
-
-Feel free to pick from the following extensions to extend your solution, but they are not required:
-
-- Implement persistence for your observations using a database of your choice.
-- Implement a client that shows the clustered signs in a map view upon request.
-- Implement a standard authentication mechanism for your REST interface and describe how to use it. 
-
-## Guidelines for Submission
-
-Your submission shall contain the following:
-
-- A README.md with a description of the problem and your solution.
-- All source code. Package the source files into a zip archive or provide a link to a hosted repository for example on GitHub.
-- A link to the client application that is live and functional.
-
-## Evaluation Criteria
-
-This assignment helps us to get insights into your style of software engineering and coding. It is essential to write good quality code that can easily be understood or extended by other developers. We expect your web service to return a meaningful result. 
+## Links To Topic Specific Challenges
+* [Web Challenge](web/README.md)
+* [Android Challenge](android/README.md)
