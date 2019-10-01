@@ -7,8 +7,8 @@ Bitcoin mining works in the way that strong mathematical puzzles have to be solv
 
 ## Challenge Overview
 Implement a distributed Bitcoin mining application with following criteria:
-* Create a central web service that delegates and aggregates the work to/from the clients. Use NodeJS to implement this logic and deploy it on a server (e.g., Amazon AWS).
-* Implement the client hashing logic as an Android app that is responsible for doing the hard calculations in a distributed manner. The client app gets the puzzles to solve from the server and publishes its results to it.
+* Create a central web service that delegates and aggregates the work to/from the clients. Use your choice of backend technology to implement this logic and deploy it on a server (e.g., Amazon AWS).
+* Implement the client hashing logic as a mobile app that is responsible for doing the hard calculations in a distributed manner. The client app gets the puzzles to solve from the server and publishes its results to it. The specific mobile platform is up to you.
 * Follow the REST principles for the communication between client and server. The endpoints could look like this, for instance:
   * ```/work```   - returns a JSON-encoded job that the client shall use to begin mining, e.g.:
     ````
@@ -26,14 +26,12 @@ Implement a distributed Bitcoin mining application with following criteria:
     }
     ````
   * ```/submit``` - provides the client with the possibility to submit a successful nonce to the server or when he finished his assigned task.
-* Use an appropriate authentication mechanism.
 * Realize the client computations in the most performant way you know.
 * You can create pseudo-hashing-puzzles and do not have to connect to the real bitcoin blockchain.
 
 ## Extensions
 Feel free to pick from the following extensions to extend your solution, but they are not required:
-* Use Kotlin instead of Java.
-* Use TypeScript instead of pure JavaScript.
+* Use an appropricate authentication mechanism between the mobile app and the backend.
 * Connect your server to the bitcoin blockchain to retrieve “real” block data.
 
 ## Guidelines for Submission

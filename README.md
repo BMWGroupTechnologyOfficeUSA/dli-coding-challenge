@@ -28,4 +28,4 @@ Your application will be reviewed and evaluated for the following characteristic
 
 ## Links To Topic Specific Challenges
 * [Web Challenge](web/README.md)
-* [Android Challenge](android/README.md)
+* [Mobile Challenge](mobile/README.md)
