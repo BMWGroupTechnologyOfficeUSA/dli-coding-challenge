@@ -20,7 +20,7 @@ Please follow these design guidelines:
 
 ## Extensions
 
-Implementing the barebone solution for this project can be trivially achieved specially with the new frameworks provided by Apple and Google. Therefore, we would like to encourage the aplicant to use his/her creativity and skills to implement functionalities to make this solution more useful and/or appealing. The applicant should feel free to come up with functionalities, still we provided some sugestions bellow:
+Implementing the barebone solution for this project can be trivially achieved specially with the new frameworks provided by Apple and Google. Therefore, we would like to encourage the aplicant to use his/her creativity and skills to implement functionalities to make this solution more useful and/or appealing. The applicant should feel free to come up with any number of functionalities. We try to help by providing some sugestions bellow:
 
 ### Design Improvements
 * Create its own 3D assets
