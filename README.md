@@ -27,5 +27,6 @@ Your application will be reviewed and evaluated for the following characteristic
 * **Technical Choices**: Do choices of libraries, databases, architecture seem appropriate for the challenge?
 
 ## Links To Topic Specific Challenges
+* [AR Experience Challenge](ar-experience/README.md)
 * [Web Challenge](web/README.md)
 * [Mobile Challenge](mobile/README.md)
