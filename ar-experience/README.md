@@ -24,15 +24,15 @@ Implementing the barebone solution for this project can be trivially achieved sp
 
 ### Design Improvements
 * Create its own 3D assets
-* Pick different car models
+* Give the option of picking different car models
 * Add sounds and animations
-* Add the option of bending back seats to increase trunk size
+* Add the option of bending the back seats to increase trunk size
 
-### Solution or Engineering Improvements
+### Engineering Improvements
 * Measure size or volume of the box
-* Persist assets so it can be reloaded
+* Persist assets so they can be reloaded later
 * Be able to create assets in the world of the same size as the real life box
-* Provide a counter is stating the how much of the trunk is still free
+* Provide a counter stating the how much of the trunk is still free
 * Auto fit boxes in the trunk
 * A simple way to solve oclusion problems
 
@@ -46,4 +46,4 @@ Your submission shall contain the following:
 
 ## Evaluation Criteria
 
-This assignment helps us to get insights into your style of programming, design and creativity. It is essential to write good quality code that can easily be understood or extended by other developer, well documented as well as bug free. We will also evaluate how appealing and useful is the experience.
+This assignment helps us to get insights into your style of programming, design and creativity. It is essential to write good quality and documented code that can easily be understood or extended by other developer, as well as bug free. We will also evaluate how appealing and useful is the experience.
