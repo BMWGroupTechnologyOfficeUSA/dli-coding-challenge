@@ -1,10 +1,10 @@
 # Coding Challenge
 
-**Does it fit in my trunk?**
+# Will it fit in my trunk? #
 
 ## Problem Description
 
-Imagine you are shopping for new furniture. However, you are not entirely sure whether the piece or pieces you are interested in will actually fit in the trunk of your car.
+Imagine you are shopping for new furniture (maybe at Ikea). However, you are not entirely sure whether the box or boxes you are interested in will actually fit in the trunk of your car.
 
 ## Challenge Overview
 
@@ -20,9 +20,21 @@ Please follow these design guidelines:
 
 ## Extensions
 
-Feel free to pick from the following extensions to extend your solution, but they are not required:
+Implementing the barebone solution for this project can be trivially achieved specially with the new frameworks provided by Apple and Google. Therefore, we would like to encourage the aplicant to use his/her creativity and skills to implement functionalities to make this solution more useful and/or appealing. The applicant should feel free to come up with functionalities, still we provided some sugestions bellow:
 
-// TODO
+### Design Improvements
+* Create its own 3D assets
+* Pick different car models
+* Add sounds and animations
+* Add the option of bending back seats to increase trunk size
+
+### Solution or Engineering Improvements
+* Measure size or volume of the box
+* Persist assets so it can be reloaded
+* Be able to create assets in the world of the same size as the real life box
+* Provide a counter is stating the how much of the trunk is still free
+* Auto fit boxes in the trunk
+* A simple way to solve oclusion problems
 
 ## Guidelines for Submission
 
@@ -30,7 +42,8 @@ Your submission shall contain the following:
 
 - A README.md with a description of the problem and your solution.
 - All source code. Package the source files into a zip archive or provide a link to a hosted repository for example on GitHub.
+- Be well documented
 
 ## Evaluation Criteria
 
-This assignment helps us to get insights into your style of software engineering and coding. It is essential to write good quality code that can easily be understood or extended by other developers. We expect your web service to return a meaningful result. 
+This assignment helps us to get insights into your style of programming, design and creativity. It is essential to write good quality code that can easily be understood or extended by other developer, well documented as well as bug free. We will also evaluate how appealing and useful is the experience.
