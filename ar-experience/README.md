@@ -23,7 +23,7 @@ Please follow these design guidelines:
 Implementing the barebone solution for this project can be trivially achieved specially with the new frameworks provided by Apple and Google. Therefore, we would like to encourage the applicant to use his/her creativity and skills to implement functionalities to make this solution more useful and/or appealing. The applicant should feel free to come up with any number of functionalities. We try to help by providing some sugestions bellow:
 
 ### Design Improvements
-* Create its own 3D assets
+* Create a 3D asset of the car itself
 * Give the option of picking different car models
 * Add sounds and animations
 * Add the option of bending the back seats to increase trunk size
@@ -32,9 +32,9 @@ Implementing the barebone solution for this project can be trivially achieved sp
 * Measure size or volume of the box
 * Persist assets so they can be reloaded later
 * Be able to create assets in the world of the same size as the real life box
-* Provide a counter stating the how much of the trunk is still free
+* Provide a counter stating how much of the trunk is still free
 * Auto fit boxes in the trunk
-* A simple way to solve oclusion problems
+* A simple way to solve occlusion problems
 
 ## Guidelines for Submission
 
