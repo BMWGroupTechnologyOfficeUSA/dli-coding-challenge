@@ -24,17 +24,16 @@ Implementing the barebone solution for this project can be trivially achieved, e
 
 ### Design Improvements
 * Create a 3D asset of the car itself
-* Give the option of picking different car models
+* Give the option of picking different car models — for inspiration, we provide some models and their respective trunk sizes [here](model-sizes.md)
 * Add sounds and animations
 * Add the option of bending the back seats to increase trunk size
-* Add different car models to choose from — for inspiration, we provide some models and their respective trunk sizes [here](model-sizes.md)
 
 ### Engineering Improvements
 * Measure size or volume of the box
 * Persist assets so they can be reloaded later
 * Be able to create virtual assets in the world of the same size as the real life box
 * Provide a counter stating how much of the trunk is still free
-* Create a functionality that auto fit all the boxes in the trunk (in case you are using virtual boxes). Finding a way to use the minimum space possible.
+* Create a functionality that auto fits all the boxes in the trunk (in case you are using virtual boxes). Find a way to use the minimum space possible.
 * A simple way to solve occlusion problems
 
 ## Guidelines for Submission
