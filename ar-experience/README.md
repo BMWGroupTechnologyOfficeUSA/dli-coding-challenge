@@ -33,7 +33,7 @@ Implementing the barebone solution for this project can be trivially achieved sp
 * Persist assets so they can be reloaded later
 * Be able to create assets in the world of the same size as the real life box
 * Provide a counter stating how much of the trunk is still free
-* Auto fit boxes in the trunk
+* Create a functionality that auto fit all the boxes in the trunk (in case you are using virtual boxes). Finding a way to use the minimum space possible.
 * A simple way to solve occlusion problems
 
 ## Guidelines for Submission
