@@ -27,6 +27,7 @@ Implementing the barebone solution for this project can be trivially achieved, e
 * Give the option of picking different car models
 * Add sounds and animations
 * Add the option of bending the back seats to increase trunk size
+* Add different car models to choose from — for inspiration, we provide some models and their respective trunk sizes [here](model-sizes.md)
 
 ### Engineering Improvements
 * Measure size or volume of the box
