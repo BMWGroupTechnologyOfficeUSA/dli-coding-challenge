@@ -4,7 +4,7 @@
 
 ## Problem Description
 
-Imagine you are shopping for new furniture (maybe at Ikea). However, you are not entirely sure whether the box or boxes you are interested in will actually fit in the trunk of your car.
+Imagine you are shopping for new furniture (maybe at IKEA). However, you are not entirely sure whether the box or boxes you are interested in will actually fit in the trunk of your car.
 
 ## Challenge Overview
 
@@ -20,7 +20,7 @@ Please follow these design guidelines:
 
 ## Extensions
 
-Implementing the barebone solution for this project can be trivially achieved specially with the new frameworks provided by Apple and Google. Therefore, we would like to encourage the applicant to use his/her creativity and skills to implement functionalities to make this solution more useful and/or appealing. The applicant should feel free to come up with any number of functionalities. We try to help by providing some sugestions bellow:
+Implementing the barebone solution for this project can be trivially achieved, especially with the new frameworks provided by Apple and Google. Therefore, we would like to encourage the applicant to use his/her creativity and skills to implement functionalities to make this solution more useful and/or appealing. The applicant should feel free to come up with any number of functionalities. We try to help by providing some sugestions bellow:
 
 ### Design Improvements
 * Create a 3D asset of the car itself
@@ -31,7 +31,7 @@ Implementing the barebone solution for this project can be trivially achieved sp
 ### Engineering Improvements
 * Measure size or volume of the box
 * Persist assets so they can be reloaded later
-* Be able to create assets in the world of the same size as the real life box
+* Be able to create virtual assets in the world of the same size as the real life box
 * Provide a counter stating how much of the trunk is still free
 * Create a functionality that auto fit all the boxes in the trunk (in case you are using virtual boxes). Finding a way to use the minimum space possible.
 * A simple way to solve occlusion problems
