@@ -14,7 +14,7 @@ Implement a mobile augmented reality application projecting a virtual 3D bluepri
 
 Please follow these design guidelines:
 
-- Your solution has to run on the latest mobile operating systems, i.e., either Android 10 or iOS 13
+- Your solution has to run on the latest mobile operating systems, i.e., either iOS 13 or Android 10
 - The application should provide its users with a great, fluent, and seamless AR experience
 - Your implementation should satisfy the respective platform's design guidelines
 
@@ -46,4 +46,4 @@ Your submission shall contain the following:
 
 ## Evaluation Criteria
 
-This assignment helps us to get insights into your style of programming, design and creativity. It is essential to write good quality and documented code that can easily be understood or extended by other developer, as well as bug free. We will also evaluate how appealing and useful is the experience.
+This assignment helps us to get insights into your style of programming, design and creativity. It is essential to write good quality and documented code that can easily be understood or extended by other developer, as well as bug free. We will also evaluate how appealing and useful is the experience. In conclusion we are really hoping to get SURPRISED!
